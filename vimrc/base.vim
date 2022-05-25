@@ -16,6 +16,11 @@ augroup END
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " General {{{
 
+" gvim输入法
+if(has('win32'))
+    set iminsert=2
+endif
+
 "设置行号
 set nu           
 set relativenumber  " 相对行号
